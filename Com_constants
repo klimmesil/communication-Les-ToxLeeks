@@ -1,0 +1,18 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//		   communication constantes   		//
+//////////////////////////////////////////////////////////////////////////////////////////
+
+// Ok j'avoue vous allez pas forcément piger... je fais ce qu'on
+// appelle des "fonctions anonymes" en gros je stoque des
+// fonctions dans un tableau... en gros ce script n'a qu'une seule
+// ligne de code en théorie...
+global comContants = [
+
+// MSG_			[0]
+function(){
+
+}
+
+
+
+];
