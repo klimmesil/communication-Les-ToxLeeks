@@ -1,6 +1,6 @@
-//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////
 //		   communication constantes   		//
-//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////
 
 // Ok j'avoue vous allez pas forcément piger... je fais ce qu'on
 // appelle des "fonctions anonymes" en gros je stoque des
@@ -8,11 +8,26 @@
 // ligne de code en théorie...
 global comContants = [
 
-// MSG_			[0]
+// MSG_heal			[0]
+function(msgParam){
+
+	if (typeOf(msgParam) != TYPE_NUMBER && !isAlive(msgParam)){
+		debugE("Le paramètre saisi n'est pas une entité vivante. Veillez mettre l'ID de l'entité visée dans le msgParam");
+	} else {
+		sendAll(MESSAGE_CUSTOM, [0]);
+
+		debug("________________________");
+		debug("Un message a été envoyé:");
+		debug("destinataire: tous");
+		debug("Heal: " + getName(msgParam));
+		debug("________________________");
+	}
+},
+
+// MSG_
 function(){
 
 }
-
 
 
 ];
