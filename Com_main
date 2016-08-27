@@ -1,0 +1,27 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//			communication			//
+//////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+Nom:		Com_main
+Auteur:		Equipe Les ToxLeeks
+Version:	1.3 (1.2/1.1 -> Hazurl)
+Description: 	Permet de communiquer simplement des informations à l'équipe
+Type:		Include utilitaire collective
+*/
+
+//		CONSTANTES (voir l'include pour changer l'effet des constantes)
+
+include("Com_constants");
+global MSG_ = 0;
+
+/*		Liste des fonctions de communication
+
+teamMessage(messageType): permet de faire des tactiques avec l'équipe (voir les constantes)
+
+*/
+
+
+function teamMessage(msgType){
+	if (msgType == MSG);
+}
